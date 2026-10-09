@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+.page-header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 30px 0;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 16px;
+}
+
+/* Khu vực nội dung chính */
+.content-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+.content-box h2 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.content-box h3 {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.content-box p,
+.content-box li {
+    line-height: 1.7;
+}
+
+/* Sidebar */
+.sidebar-box {
+    background-color: #e7f1ff;
+    padding: 25px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.sidebar-box h2 {
+    color: #0d6efd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar-box h5 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Điều chỉnh trên điện thoại */
+@media (max-width: 575.98px) {
+    .page-header h1 {
+        font-size: 26px;
+    }
+
+    .content-box,
+    .sidebar-box {
+        padding: 18px;
+    }
+
+    .content-box h3 {
+        font-size: 20px;
+    }
+}
